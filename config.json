@@ -1,0 +1,53 @@
+{
+  "autoCleanCache": true,
+  "autoDB": true,
+  "logEvent": {
+    "status": true,
+    "propertiesToDelete": [
+      "participantIDs"
+    ],
+    "hideEvent": [
+      "presence",
+      "typ",
+      "read_receipt"
+    ]
+  },
+  "timeZone": "Africa/Algiers",
+  "lang": "ar",
+  "allowInbox": false,
+  "onlyAdminBot": false,
+  "UPTIME": 200,
+  "commandDisabled": [],
+  "eventDisabled": [],
+  "EMAIL": "",
+  "PASSWORD": "",
+  "2FA": "",
+  "nickNameBot": "Vexa",
+  "prefix": ".",
+  "botadmin": "facebook.com/proarcoder",
+  "owners": [
+    "100094409873389",
+    "100094409873389"
+  ],
+  "cookies": "account.txt",
+  "database": {
+    "type": "sqlite",
+    "uriMongodb": "",
+    "autoSyncWhenStart": false
+  },
+  "version": "1.0.0",
+  "author": "Vexa Team",
+  "notFoundCommandMessage": true,
+  "FBOPTIONS": {
+    "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
+    "forceLogin": true,
+    "listenEvents": true,
+    "updatePresence": true,
+    "listenTyping": true,
+    "logLevel": "silent",
+    "selfListen": false,
+    "selfListenEvent": true,
+    "autoMarkDelivery": false,
+    "autoReconnect": false
+  }
+}
