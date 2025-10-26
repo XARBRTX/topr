@@ -13,7 +13,7 @@ const { openAIUsing, openAIHistory } = global.temp;
 module.exports = {
 	config: {
 		name: "gpt",
-        aliases: ["فيكسا", "شات"],
+        aliases: ["سؤال", "شات"],
 		version: "1.4",
 		author: "محمد ألو",
 		countDown: 5,
