@@ -2,12 +2,12 @@ const axios = require('axios');
 
 module.exports = {
   config: {
-    name: "مارلين",
+    name: "الفا",
     version: "1.0",
     author: "Yuki",
     countDown: 5,
     role: 0,
-    shortDescription: "محادثة مع مارلين (Chipp.ai)",
+    shortDescription: "محادثة مع الفا (Chipp.ai)",
     category: "الذكاء الاصطناعي",
     guide: "{pn} [سؤالك]"
   },
@@ -48,12 +48,12 @@ async function handleMarlin({ message, event, userInput }) {
     const reply = await sendToMarlin(fullPrompt);
     message.reply(`⌯︙${reply}`, (err, info) => {
       global.GoatBot.onReply.set(info.messageID, {
-        commandName: "مارلين"
+        commandName: "الفا"
       });
     });
   } catch (err) {
     console.error(err);
-    message.reply("⌯︙حدث خطأ أثناء الاتصال بـ مارلين.");
+    message.reply("⌯︙حدث خطأ أثناء الاتصال بـ الفا.");
   }
 }
 
