@@ -9,7 +9,7 @@ const path = require("path");
 const axios = require('axios');
 const moment = require("moment-timezone");
 const { NODE_ENV } = process.env;
-const dirConfig = path.normalize(`${__dirname}/config${['production', 'development'].includes(NODE_ENV) ? '.dev.json' : '.json'}`);
+const dirConfig = require('./config.js');
 const config = require(dirConfig);
 const login = require('./vexa-chat-api');
 
