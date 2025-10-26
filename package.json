@@ -74,7 +74,6 @@
     "requests": "^0.3.0",
     "semver": "^7.5.1",
     "sequelize": "^6.19.0",
-    "sharp": "^0.33.2",
     "simple-youtube-api": "^5.2.1",
     "soundcloud-downloader": "^1.0.0",
     "sqlite3": "^5.0.5",
