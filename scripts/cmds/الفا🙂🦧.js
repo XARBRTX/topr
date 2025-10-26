@@ -12,7 +12,7 @@ module.exports = {
     guide: "{pn} [سؤالك]"
   },
 
-  onStart: async function ({ message, args, event }) {
+  atCall: async function ({ message, args, event }) {
     const userInput = args.join(" ");
     if (!userInput) return message.reply("⌯︙اكتب سؤالك ياكيوت.");
 
