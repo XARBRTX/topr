@@ -88,6 +88,6 @@ module.exports = {
       })
       .join("\n");
 
-    message.reply({ body: getLang('help', sortedCommands, totalCommands, pageNumber, doNotDelete), attachment: await getStreamFromUrl('https://files.catbox.moe/s3z9dm.jpg')});
+    message.reply({ body: getLang('help', sortedCommands, totalCommands, pageNumber, doNotDelete), attachment: await getStreamFromUrl('https://i.imgur.com/Fzwfdee.jpeg')});
   },
 };
